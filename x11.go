@@ -4,18 +4,18 @@
 package x11
 
 import (
-	"gitlab.com/nitya-sattva/go-x11/blake"
-	"gitlab.com/nitya-sattva/go-x11/bmw"
-	"gitlab.com/nitya-sattva/go-x11/cubed"
-	"gitlab.com/nitya-sattva/go-x11/echo"
-	"gitlab.com/nitya-sattva/go-x11/groest"
-	"gitlab.com/nitya-sattva/go-x11/hash"
-	"gitlab.com/nitya-sattva/go-x11/jhash"
-	"gitlab.com/nitya-sattva/go-x11/keccak"
-	"gitlab.com/nitya-sattva/go-x11/luffa"
-	"gitlab.com/nitya-sattva/go-x11/shavite"
-	"gitlab.com/nitya-sattva/go-x11/simd"
-	"gitlab.com/nitya-sattva/go-x11/skein"
+	"github.com/bitbandi/go-x11/blake"
+	"github.com/bitbandi/go-x11/bmw"
+	"github.com/bitbandi/go-x11/cubed"
+	"github.com/bitbandi/go-x11/echo"
+	"github.com/bitbandi/go-x11/groest"
+	"github.com/bitbandi/go-x11/hash"
+	"github.com/bitbandi/go-x11/jhash"
+	"github.com/bitbandi/go-x11/keccak"
+	"github.com/bitbandi/go-x11/luffa"
+	"github.com/bitbandi/go-x11/shavite"
+	"github.com/bitbandi/go-x11/simd"
+	"github.com/bitbandi/go-x11/skein"
 )
 
 ////////////////
