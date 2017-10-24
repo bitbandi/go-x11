@@ -1,0 +1,26 @@
+sudo: false
+language: go
+go:
+  - 1.7
+before_install:
+  - go get github.com/modocache/gover
+  - go get github.com/mattn/goveralls
+  - go get golang.org/x/tools/cmd/cover
+install:
+  - go get -t ./...
+script:
+  - go test -coverprofile=nist.coverprofile ./nist
+  - go test -coverprofile=blake.coverprofile ./blake
+  - go test -coverprofile=bmw.coverprofile ./bmw
+  - go test -coverprofile=cubed.coverprofile ./cubed
+  - go test -coverprofile=echo.coverprofile ./echo
+  - go test -coverprofile=groest.coverprofile ./groest
+  - go test -coverprofile=jhash.coverprofile ./jhash
+  - go test -coverprofile=keccak.coverprofile ./keccak
+  - go test -coverprofile=luffa.coverprofile ./luffa
+  - go test -coverprofile=shavite.coverprofile ./shavite
+  - go test -coverprofile=simd.coverprofile ./simd
+  - go test -coverprofile=skein.coverprofile ./skein
+  - go test -coverprofile=x11.coverprofile .
+  - gover
+  - goveralls -coverprofile=gover.coverprofile -service=travis-ci
