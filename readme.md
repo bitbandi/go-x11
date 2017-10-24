@@ -1,4 +1,4 @@
-go-x11
+go-x11 [![License](https://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/bitbandi/go-x11/blob/master/license.md) [![godoc](https://img.shields.io/badge/go-documentation-blue.svg)](https://godoc.org/github.com/bitbandi/go-x11) [![Build Status](https://travis-ci.org/bitbandi/go-x11.svg?branch=master)](https://travis-ci.org/bitbandi/go-x11) [![Coverage Status](https://coveralls.io/repos/github/bitbandi/go-x11/badge.svg?branch=master)](https://coveralls.io/github/bitbandi/go-x11?branch=master)
 ======
 
 Implements the x11 hash and required functions in go.
