@@ -15,6 +15,7 @@ go_tests:
     - go test ./go-x11/bmw -coverprofile ./bmw.log
     - go test ./go-x11/cubed -coverprofile ./cubed.log
     - go test ./go-x11/echo -coverprofile ./echo.log
+    - go test ./go-x11/gost -coverprofile ./gost.log
     - go test ./go-x11/groest -coverprofile ./groest.log
     - go test ./go-x11/jhash -coverprofile ./jhash.log
     - go test ./go-x11/keccak -coverprofile ./keccak.log
